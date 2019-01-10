@@ -4,7 +4,7 @@
 LinkQueue q;
 int main(void)
 {
-    InitQueue(&q);
+    InitQueue(&q)
     int i;
     if (QueueEmpty(q))
         printf("queue is empty\n");
